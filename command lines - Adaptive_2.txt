@@ -1,0 +1,3 @@
+AdaptiveSincZoom2023v2 xxni00001-113.img 139 176 2.4
+AdaptiveSincZoom2023v2 xxni00001-113.img 139 176 2.6
+AdaptiveSincZoom2023v2 xxni00001-113.img 139 176 2.8
