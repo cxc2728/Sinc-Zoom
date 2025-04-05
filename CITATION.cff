@@ -1,2 +1,14 @@
-Title: Optimal Parametric Analysis of Non-Adaptive and Adaptive Sinc-Based Image Zoom Techniques
-The Visual Computer - Springer Nature
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ciulla"
+  given-names: "Carlo"
+  orcid: "https://orcid.org/0000-0002-5563-6036"
+- family-names: "Zhejani"
+  given-names: "Arilda"
+  orcid: "https://orcid.org/0009-0002-9174-5456 "
+title: "Optimal Parametric Analysis of Non-Adaptive and Adaptive Sinc-Based Image Zoom Techniques"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-04-04
+url: "https://github.com/cxc2728/Sinc-Zoom"
