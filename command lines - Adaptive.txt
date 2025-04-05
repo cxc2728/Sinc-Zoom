@@ -1,0 +1,3 @@
+AdaptiveSincZoom2023v3 Image_with_noise_Circle.img 139 176
+AdaptiveSincZoom2023v3 Image_with_noise_Exponential.img 139 176
+AdaptiveSincZoom2023v3 Image_with_noise_SinCosE.img 139 176 
