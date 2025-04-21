@@ -291,11 +291,11 @@ int main(int argc, char* argv[]) {
 		std::cout << "Now calculating the Direct Fourier transform" << endl;
 		OnFourierTransform(imageFileName, m_rcxres, m_rcyres);
 
-		for (int SR = 1; SR <= 17; SR++)
+		for (int SR = 2; SR <= 10; SR++)
 		{
 			m_TheSamplingRate = (double)SR;
 
-			for (double i = 0.1; i <= 1.0; i += 0.1)
+			for (double i = 0.1; i <= 0.2; i += 0.1)
 			{
 
 				zoom_f = (double)i;
@@ -309,8 +309,6 @@ int main(int argc, char* argv[]) {
 			}
 		
 		}
-		//	std::cout << "Now Calculating the Fourier transform of the zoomed image" << endl;
-		//	OnFourierTransform("Sinc_Image.img", m_rcxres, m_rcyres);
 
 		std::cout << "End of Computation..." << endl;
 		std::cout << endl;
