@@ -185,7 +185,7 @@ int main(int argc, char* argv[]) {
 		std::cout << "Please enter the following values: " << endl;
 		std::cout << "The number of pixels along the X direction (integer)" << endl;
 		std::cout << "The number of pixels along the Y direction (integer)" << endl;
-		std::cout << "The Sampling Rate (double) in [0.1, 4.0]" << endl;
+		std::cout << "The Sampling Rate (double) in [0.4, 2.8]" << endl;
 		std::cout << endl;
 		exit(0);
 	}
@@ -201,10 +201,10 @@ int main(int argc, char* argv[]) {
 		double m_TheSamplingRate = atof(argv[4]);
 
 
-		if (m_TheSamplingRate > 4.0 || m_TheSamplingRate < 0.1)
+		if (m_TheSamplingRate > 2.8 || m_TheSamplingRate < 0.4)
 		{
 
-		    std::cout << "The Sampling Rate must be (double) in [0.1, 4.0]" << endl;
+		    std::cout << "Please reset the Sampling Rate (double) in [0.4, 2.8]" << endl;
 			exit(0);
 
 		}
