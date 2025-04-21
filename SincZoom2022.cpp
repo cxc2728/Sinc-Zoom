@@ -185,8 +185,8 @@ int main(int argc, char* argv[]) {
 		std::cout << "Please enter the following values: " << endl;
 		std::cout << "The number of pixels along the X direction (integer)" << endl;
 		std::cout << "The number of pixels along the Y direction (integer)" << endl;
-		std::cout << "The Bandwidth (double) in [0.1, 4.0]" << endl;
-		std::cout << "The Sampling Rate (double) in [0.1, 4.0]" << endl;
+		std::cout << "The Bandwidth (double) in [0.4, 0.6]" << endl;
+		std::cout << "The Sampling Rate (double) in [1.2, 1.4]" << endl;
 		std::cout << endl;
 		exit(0);
 	}
@@ -202,15 +202,15 @@ int main(int argc, char* argv[]) {
 		double m_Bandwidth = atof(argv[4]);
 		double m_TheSamplingRate = atof(argv[5]);
 
-		if ( m_TheSamplingRate > 4.0 || m_TheSamplingRate < 0.1 || m_Bandwidth > 4.0 || m_Bandwidth < 0.1 )
+		if ( m_TheSamplingRate > 1.4 || m_TheSamplingRate < 1.2 || m_Bandwidth > 0.6 || m_Bandwidth < 0.4 )
 		{
 
-			std::cout << "The Sampling Rate and the Bandwidth must be in [0.1, 4.0]" << endl;
+			std::cout << "Please reset the Bandwidth (double) in [0.4, 0.6]" << endl;
+		    std::cout << "Please reset the Sampling Rate (double) in [1.2, 1.4]" << endl;
 			exit(0);
 
 		} 
 		else { }
-
 		/// calculate the zoom factor (begin)
 		double zoomValue = 0.0;
 
